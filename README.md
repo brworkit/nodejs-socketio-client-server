@@ -1,7 +1,7 @@
 # Socket Node Client and Server 
 
 ## Description
-Client and Server programs for testing socket communication. This example is base for a service I have in production. Maybe it can help you to setup a socket faster than searching for complicated ways on internet.
+Client and Server programs for testing socket communication. This example has been used in production environment.
 
 ## Requirements
     [Socket IO](https://www.npmjs.com/package/socket.io)
