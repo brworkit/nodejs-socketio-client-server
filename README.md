@@ -1,19 +1,28 @@
-# socket-node-example
-A socket client-server example.
+# Socket Node Client and Server 
 
-A socket.io client and server example
+## Description
+Client and Server programs for testing socket communication. This example is base for a service I have in production. Maybe it can help you to setup a socket faster than searching for complicated ways on internet.
 
-Modules required:
+## Requirements
+    [Socket IO](https://www.npmjs.com/package/socket.io)
+    [Socket IO Client](https://www.npmjs.com/package/socket.io-client)
+    
+## Installation
 
-socket.io + Express
+### Project
+    $ git clone https://github.com/brworkit/socket-node-example.git
+    $ cd socket-node-example
+    
+## Usage
 
+Start server using: 
 
-To test it:
+    $ node socket-server.js
 
-Start server:
+Start client using:
+    
+    $ node socket-client.js
 
-node socket-server
-
-Start client:
-
-node socket-client
+## License
+[MIT License.](https://opensource.org/licenses/MIT)    
+Copyright (c) 2020 **brworkit**.
