@@ -1,7 +1,7 @@
 # Socket Node Client and Server 
 
 ## Description
-Client and Server programs for testing socket communication. This example has been used in production environment.
+Client and Server programs for testing socket communication. This example has been used in production environment and still.
 
 ## Requirements
 For development, you will only need Node.js and a node global package, installed in your environement. 
