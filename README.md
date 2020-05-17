@@ -16,7 +16,7 @@ For development, you will only need Node.js and a node global package, installed
 
   You can install NodeJs and npm with apt install, using the following commands:
       
-      $ sudo apt install nodejs### Node
+      $ sudo apt install nodejs
       
       $ sudo apt install npm
 
@@ -38,7 +38,7 @@ If the installation was successful, you should be able to run the following comm
 ### Socket IO Client 
 [Socket IO Client](https://www.npmjs.com/package/socket.io-client)
     
-    $ npm install socket.io
+    $ npm install socket.io-client
     
 ## Installation
 
