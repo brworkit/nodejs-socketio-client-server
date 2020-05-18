@@ -58,7 +58,7 @@ Start client using (in another bash):
 
 You will see in your client prompt the current time from Javascript Date class in ISO format:
     
-    { time: '2020-05-18T12:53:12.616Z' }
+    { time: time ISO format }
 
 You you see in your server prompt:
 
