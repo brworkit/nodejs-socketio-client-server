@@ -50,11 +50,19 @@ If the installation was successful, you should be able to run the following comm
 
 Start server using: 
 
-    $ node socket-server.js
+    $ npm start server
 
-Start client using:
+Start client using (in another bash):
     
-    $ node socket-client.js
+    $ node client.js
+
+You will see in your client prompt the current time from Javascript Date class in ISO format:
+    
+    { time: '2020-05-18T12:53:12.616Z' }
+
+You you see in your server prompt:
+
+    client <client id> connected <time ISO format>.
 
 ## License
 [MIT License.](https://opensource.org/licenses/MIT)    

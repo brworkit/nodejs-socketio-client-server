@@ -4,8 +4,10 @@
     "CHANNEL_START_CONNECTION": "connect",
     "CHANNEL_CLOSE_CONNECTION": "disconnect",
     "CHANNEL_MESSAGES_CONNECTION": "messages",
+    "CHANNEL_CLOCK": "clock",    
     "SOCKET_SERVER_BASE_PATH": "http://localhost",
+    "WELCOME_MESSAGE": "Learn how to use it here",
     "CLOCK": {
-        "updateRate": 1000
+        "UPDATE_RATE": 1000
     }
 }
