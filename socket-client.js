@@ -1,8 +1,4 @@
-const SOCKET_SERVER_ADDRESS = 'http://localhost:8500'
 
-const SERVER_CONNECT_CHANNEL = 'connect'
-
-const SERVER_MESSAGES_CHANNEL = 'messages'
 
 const io = require("socket.io-client")
 

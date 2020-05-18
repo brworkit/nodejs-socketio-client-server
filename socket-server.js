@@ -1,15 +1,27 @@
-const PORT = 8500
-const IDLE_INTERVAL = 15000
-const CONNECT_CHANNEL = 'connect'
-const DISCONNECT_CHANNEL = 'disconnect'
-const MESSAGES_CHANNEL = 'messages'
+
+const config = require('config.json');
 
 const io = require("socket.io")
 const server = io.listen(PORT)
 
 let clients = new Set()
 
-server.on(CONNECT_CHANNEL, (client) => {
+
+{
+    "PORT": 8500,
+    "IDLE_INTERVAL": 1000,
+    "CHANNEL_START_CONNECTION": "connect",
+    "CHANNEL_CLOSE_CONNECTION": "disconnect",
+    "CHANNEL_MESSAGES_CONNECTION": "messages",
+    "SOCKET_SERVER_BASE_PATH": "http://localhost",
+    "CLOCK": {
+        "updateRate": 1000
+    }
+}
+
+
+
+server.on(config.CONNECTI, (client) => {
 
     console.info(`Client ${client.id} started a connection at ${new Date().toISOString()}.`)
 

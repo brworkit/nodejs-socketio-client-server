@@ -1,0 +1,11 @@
+{
+    "PORT": 8500,
+    "IDLE_INTERVAL": 1000,
+    "CHANNEL_START_CONNECTION": "connect",
+    "CHANNEL_CLOSE_CONNECTION": "disconnect",
+    "CHANNEL_MESSAGES_CONNECTION": "messages",
+    "SOCKET_SERVER_BASE_PATH": "http://localhost",
+    "CLOCK": {
+        "updateRate": 1000
+    }
+}
