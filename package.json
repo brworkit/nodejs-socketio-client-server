@@ -2,7 +2,7 @@
   "name": "socket_example",
   "version": "1.0.0",
   "description": "",
-  "main": "welcome.js",
+  "main": "server.js",
   "scripts": {
     "start server": "node server.js",    
     "test": "test.js"
